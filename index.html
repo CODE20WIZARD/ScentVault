@@ -10,6 +10,24 @@
   <meta property="og:description" content="Authentic designer perfumes. Limited allocation. Order via WhatsApp." />
   <meta property="og:type" content="website" />
   <link rel="stylesheet" href="style.css" />
+<!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=AW-744993895"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-744993895'); </script>
+ <!-- Event snippet for Intending Buyer Call Me From Site conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-744993895/CriLCK-40fIbEOfonuMC',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+ 
 </head>
 <body>
   <div class="wrap">
